@@ -68,7 +68,7 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     .flex-item {
         flex: 100%;
     }
