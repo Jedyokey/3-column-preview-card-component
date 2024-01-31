@@ -36,29 +36,60 @@ body {
     font-size: 0.9375rem;
     padding: 1.25rem 0 3.125rem 0;
 }
-.flex-item input[type=submit] {
-    border: 2px solid hsl(0, 0%, 95%);
-    border-radius: 1.875rem;
-    padding: 0.625rem 1.5rem;
-    font-size: 0.8125rem;
-}
-.flex-item input[type=submit]:hover {
-    background: none;
-    border: 2px solid hsl(0, 0%, 95%);
-    color: hsl(0, 0%, 95%);
-}
 .flex-item-left {
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 0.625rem;
     border-bottom-left-radius: 0.625rem;
 }
+.flex-item-left a {
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.5rem;
+    font-size: 0.8125rem;
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+}
+.flex-item-left a:hover {
+    background: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
 .flex-item-middle {
     background-color: hsl(184, 100%, 22%);
+}
+.flex-item-middle a {
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.5rem;
+    font-size: 0.8125rem;
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+.flex-item-middle a:hover {
+    background: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
 }
 .flex-item-right {
     background-color: hsl(179, 100%, 13%);
     border-top-right-radius: 0.625rem;
     border-bottom-right-radius: 0.625rem;
+}
+.flex-item-right a {
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.5rem;
+    font-size: 0.8125rem;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
+.flex-item-right a:hover {
+    background: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
 }
 .attribution {
     font-size: 0.6875rem;
